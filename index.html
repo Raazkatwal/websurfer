@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Document</title>
+    <title>Websurfer Nepal | Home</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/a3c06e4acc.js" crossorigin="anonymous"></script>
@@ -12,6 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
     <nav>
         <div>
             <img src="img/logo.png" alt="Logo" class="logo">
@@ -25,20 +26,46 @@
     </nav>
     <div class="swiper">
         <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="img/banner-1.png" alt="Banner 1" class="swiper-img"></div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide"><img src="img/banner-1.webp" alt="Banner 1" class="swiper-img"></div>
+        <div class="swiper-slide"><img src="img/banner-2.webp" alt="Banner 2" class="swiper-img"></div>
+        <div class="swiper-slide"><img src="img/banner-3.webp" alt="Banner 3" class="swiper-img"></div>
+        <div class="swiper-slide"><img src="img/banner-4.webp" alt="Banner 4" class="swiper-img"></div>
+        <div class="swiper-slide"><img src="img/banner-5.webp" alt="Banner 5" class="swiper-img"></div>
         </div>
 
         <div class="swiper-pagination"></div>
     
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
+    </div>
+    <div class="packages-section">
+        <h1 class="heading">Choose Your Broadband Package</h1>
+        <div class="packages-plan">
+            <div class="package basic">
+                <p class="standard-name">Basic</p>
+                <h1 class="package-heading">Websurfer TV Box</h1>
+                <img src="img/tv.webp" alt="TV" style="width: 70%;">
+                <p class="description">HD & SD Channels Subscription. Watch your favourite TV Channels. Crystal Clear Digital TV in affordable price</p>
+                <p class="rate">Rs <span class="price">400</span> / Month</p>
+                <button class="view-plan-btn">View Plan</button>
+            </div>
+            <div class="package standard">
+                <p class="standard-name">Standard</p>
+                <h1 class="package-heading">High Speed WiFi</h1>
+                <img src="img/wifi.webp" alt="WiFi" style="width: 100%;">
+                <p class="description">Super High Speed Internet Offerings. No Buffering, Un Metered Internet, Surf with confident.</p>
+                <p class="rate">Rs <span class="price">950</span> / Month</p>
+                <button class="view-plan-btn standard-btn">View Plan</button>
+            </div>
+            <div class="package premium">
+                <p class="standard-name">Premium</p>
+                <h1 class="package-heading">TV Box + WiFi</h1>
+                <img src="img/tv_and_wifi.webp" alt="TV and WiFi" style="width: 100%;">
+                <p class="description">HD & SD Channels Subscription. Watch your favourite TV Channels. Crystal Clear Digital TV in affordable price</p>
+                <p class="rate">Rs <span class="price">990</span> / Month</p>
+                <button class="view-plan-btn">View Plan</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
