@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Websurfer Nepal | Home</title>
+    <meta name="description" content="Websurfer Nepal is Internet Service Provider(ISP) and Network Service Provider(NSP) authorised and licensed by Government of Nepal. Call us for fiber internet, wireless internet, digital tv services in Nepal Nationwide.">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/a3c06e4acc.js" crossorigin="anonymous"></script>
@@ -13,15 +14,29 @@
 </head>
 <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
-    <nav>
-        <div>
+    <nav class="desktop-nav">
+        <a href="#">
             <img src="img/logo.png" alt="Logo" class="logo">
-        </div>
+        </a>
+        <i class="fa-solid fa-bars"></i>
         <div class="nav-links-container">
             <a href="#" class="nav-link active">Home</a>
             <a href="#" class="nav-link">About Us</a>
             <a href="#" class="nav-link">Packages</a>
             <a href="#" class="nav-link"><i class="fa-solid fa-user"></i> Login</a>
+        </div>
+    </nav>
+    <nav class="mbl-nav">
+        <i class="fa-solid fa-xmark"></i>
+        <div class="mbl-nav-search-section">
+            <input type="text" class="mbl-nav-search-input" placeholder="Search...">
+            <button class="mbl-nav-search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="mbl-nav-links">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Packages</a>
+            <a href="#"><i class="fa-regular fa-user"></i> Login</a>
         </div>
     </nav>
     <div class="swiper">
@@ -39,7 +54,7 @@
         <div class="swiper-button-next"></div>
     </div>
     <div class="packages-section">
-        <h1 class="heading">Choose Your Broadband Package</h1>
+        <h1 class="heading underline">Choose Your Broadband Package</h1>
         <div class="packages-plan">
             <div class="package basic">
                 <p class="standard-name">Basic</p>
@@ -67,5 +82,158 @@
             </div>
         </div>
     </div>
+    <div class="fiber-section">
+        <div class="fiber-img-wrapper">
+            <div class="blob"></div>
+            <img src="img/fiber_cable.webp" alt="Fiber Cable" class="fiber-img" class="fiber-img">
+        </div>
+        <h1 class="heading">Fiber Solution for IntraNet and Internet</h1>
+        <p class="fiber-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nemo doloribus quos natus deleniti officiis voluptatibus non, quidem perspiciatis cupiditate quia, laboriosam quae totam perferendis libero? Atque voluptatem sint modi tempora excepturi veniam fuga facere praesentium, nam ea? Harum repudiandae, recusandae dolor fugit rem dolorem amet eligendi laborum ducimus optio!</p>
+    </div>
+    <div class="features-section">
+        <div>
+            <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <p class="feature-name">Lorem ipsum dolor sit.</p>
+        </div>
+        <div>
+            <div class="feature-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+            <p class="feature-name">Lorem ipsum dolor sit.</p>
+        </div>
+        <div>
+            <div class="feature-icon"><i class="fa-solid fa-trophy"></i></div>
+            <p class="feature-name">Lorem ipsum dolor sit.</p>
+        </div>
+        <div>
+            <div class="feature-icon"><i class="fa-solid fa-key"></i></div>
+            <p class="feature-name">Lorem ipsum dolor sit.</p>
+        </div>
+    </div>
+    <img src="img/websurfer_network_nepal_map.webp" alt="Websurfer all over Nepal" style="width: 100%;">
+    <div class="services-section">
+        <h1 class="heading underline">Our Services</h1>
+        <div class="tile-wrapper">
+            <div class="tile">
+                <img src="img/fiber-optic-lease.jpg" alt="Fiber Optic Lease" class="tile-img">
+                <h1 class="tile-heading">Fiber Optic Lease</h1>
+                <p class="tile-text">Fiber Optic Network Solution for your Business</p>
+            </div>
+            <div class="tile">
+                <img src="img/DataCenter.jpg" alt="Data Center" class="tile-img">
+                <h1 class="tile-heading">Data Center Service</h1>
+                <p class="tile-text">Data center solutions for your Business</p>
+            </div>
+            <div class="tile">
+                <img src="img/office.jpg" alt="Office" class="tile-img">
+                <h1 class="tile-heading">Office Net</h1>
+                <p class="tile-text">Fiber Small business Internet</p>
+            </div>
+            <div class="tile">
+                <img src="img/wireless-internet.webp" alt="Wireless Internet" class="tile-img">
+                <h1 class="tile-heading">Wireless Internet</h1>
+                <p class="tile-text">Wireless Internet Service</p>
+            </div>
+            <div class="tile">
+                <img src="img/cable-internet.jpg" alt="Cable Internet" class="tile-img">
+                <h1 class="tile-heading">Cable Internet</h1>
+                <p class="tile-text">FTTH Internet, Digital TV Services For Business</p>
+            </div>
+            <div class="tile">
+                <img src="img/wireless-link.jpg" alt="Wireless Link" class="tile-img">
+                <h1 class="tile-heading">Wireless Links</h1>
+                <p class="tile-text">Wireless Links for your Business</p>
+            </div>
+        </div>
+    </div>
+    <div class="call-us-section">
+        <div>
+            <h1 class="heading underline" style="color: white;">Call Us Today TO Get Started</h1>
+            <p class="number">9812345678</p>
+        </div>
+    </div>
+    <div class="faq-section">
+        <h1 class="heading underline">FAQs</h1>
+        <div class="faq"><i class="fa-solid fa-plus"></i> Why Websurfer</div>
+        <div class="faq"><i class="fa-solid fa-plus"></i> Lorem ipsum dolor sit amet.</div>
+        <div class="faq"><i class="fa-solid fa-plus"></i> Lorem ipsum dolor sit amet.</div>
+        <div class="faq"><i class="fa-solid fa-plus"></i> Lorem ipsum dolor sit amet.</div>
+        <div class="faq"><i class="fa-solid fa-plus"></i> Lorem ipsum dolor sit amet.</div>
+    </div>
+    <div class="contact-section">
+        <h3 class="heading underline" style="color: white;">Contact Us Now</h3>
+        <div class="contact-column">
+            <div class="info-container">
+                <div class="info-section">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="contact-info">
+                        <h6 class="highlight">Address</h6>
+                        Dhumbarahi Height, Kathmandu, Nepal
+                    </div>
+                </div>
+                <div class="info-section">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="contact-info">
+                        <h6 class="highlight">E-mail</h6>
+                        websurfernp@google.com
+                    </div>
+                </div>
+                <div class="info-section">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="contact-info">
+                        <h6 class="highlight">Phone</h6>
+                        9812345678
+                    </div>
+                </div>
+            </div>
+            <form>
+                <div class="form-content">
+                    <input type="text" placeholder="Your Name" class="form-inputs" required>
+                    <input type="email" placeholder="Your Email" class="form-inputs" required>
+                    <input type="text" placeholder="Subject" class="form-inputs subject" required>
+                    <textarea style="resize: none;" placeholder="Message" class="form-inputs message" required></textarea>
+                    <input type="submit" value="SEND NOW" class="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-main-info">
+                <a href="#" class="icon-section">
+                    <img src="img/logo.png" alt="Logo" class="logo">
+                </a>
+                <p>Phone: <span class="footer-content-color">9812345678</span></p>
+                <p>Email: <span class="footer-content-color">websurfer@gmail.com</span></p>
+                <p>Address: <span class="footer-content-color">Dhumbarahi Height, Kathmandu, Nepal</span></p>
+            </div>
+            <div>
+                <h1>Useful Links</h1>
+                <div class="footer-nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Packages</a>
+                    <a href="#">Pages</a>
+                </div>
+            </div>
+            <div>
+                <form class="footer-form">
+                    <h1>Newsletter</h1>
+                    <span class="footer-content-color">Get all the latest information, Sales and Offers.</span>
+                    <div>
+                        <input type="email" placeholder="email@example.com" class="footer-text-input" required>
+                        <button type="submit" class="footer-form-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="copyright-section">
+            <p class="copyright-text">© 2023, Websurfer Internet and Intranet</p>
+            <div class="social-media-handles">
+                <button class="social-media-btns"><i class="fa-brands fa-facebook"></i></button>
+                <button class="social-media-btns"><i class="fa-brands fa-instagram"></i></button>
+                <button class="social-media-btns"><i class="fa-brands fa-twitter"></i></button>
+            </div>
+            
+        </div>
+    </footer>
 </body>
 </html>
