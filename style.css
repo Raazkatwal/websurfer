@@ -64,6 +64,7 @@ body{
     margin-right: 5rem;
     color: var(--secondary-color);
     display: none;
+    opacity: 0;
 }
 .nav-link{
     text-decoration: none;
@@ -543,6 +544,7 @@ span.swiper-pagination-bullet{
     }
     .fa-bars{
         display: block;
+        opacity: 1;
     }
     .nav-links-container{
         display: none;
